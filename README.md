@@ -6,7 +6,7 @@ C++-olio-ohjelmoinnin kurssin harjoitustehtävät. Jokainen tehtävä on oma Qt 
 
 | Kansio | Aihe | Sisältö |
 |---|---|---|
-| `h1` | Ensimmäinen kotitehtävä | *(lisää kuvaus)* |
+| `h1` | Funktiot | Kahden luvun yhteen- ja jakolasku käyttäjän syötteestä (`cin`). Tulostavat funktiot (`calcSum`, `calcDiv`) ja arvon palauttavat funktiot (`retSum`, `retDiv`). Nollalla jakamisen käsittely poikkeuksella (`throw` / `try`–`catch`). |
 | `h2a` | Luokka ja olio | `Car`, `Rectangle` ja `Student` -luokat. Getterit ja setterit, olion luonti pinoon, kekoon (`new`/`delete`) ja smart pointerilla (`unique_ptr`). |
 | `h2b` | Oliolista | `Car`-luokka konstruktorilla. Olioiden tallennus `std::vector`-listaan ja läpikäynti for-silmukalla. |
 | `h3a` | Periytyminen | Kantaluokka `Chef` ja siitä periytyvä `ItalianChef`. Kantaluokan konstruktorin kutsuminen, destruktorit ja `protected`-jäsenet. |
@@ -14,6 +14,7 @@ C++-olio-ohjelmoinnin kurssin harjoitustehtävät. Jokainen tehtävä on oma Qt 
 
 ## Käsitteet, joita harjoiteltiin
 
+- Funktiot, paluuarvot ja poikkeukset
 - Luokat, oliot ja kapselointi (`private`, `protected`, `public`)
 - Jako `.h`- ja `.cpp`-tiedostoihin
 - Konstruktorit ja destruktorit
@@ -23,5 +24,5 @@ C++-olio-ohjelmoinnin kurssin harjoitustehtävät. Jokainen tehtävä on oma Qt 
 
 ## Ajaminen
 
-1. Avaa haluamasi tehtäväkansion projektitiedosto (`CMakeLists.txt` tai `.pro`) Qt Creatorissa.
+1. Avaa haluamasi tehtäväkansion `CMakeLists.txt` Qt Creatorissa.
 2. Valitse kääntäjä (kit) ja paina **Run** (Ctrl+R).
