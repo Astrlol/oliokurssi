@@ -11,6 +11,7 @@ C++-olio-ohjelmoinnin kurssin harjoitustehtävät. Jokainen tehtävä on oma Qt 
 | `h2b` | Oliolista | `Car`-luokka konstruktorilla. Olioiden tallennus `std::vector`-listaan ja läpikäynti for-silmukalla. |
 | `h3a` | Periytyminen | Kantaluokka `Chef` ja siitä periytyvä `ItalianChef`. Kantaluokan konstruktorin kutsuminen, destruktorit ja `protected`-jäsenet. |
 | `h3b` | Polymorfismi | Kantaluokka `Animal` ja periytyvä `Dog`. Virtuaaliset metodit, `override`, virtuaalinen destruktori ja `unique_ptr<Animal>`-oliot vektorissa. |
+| `h4`  | Kompositio | `Car` koostuu `Engine`-oliosta ja neljästä `Wheel`-oliosta jäsenmuuttujina. UML-luokkakaavion tulkinta, `= default` -konstruktorit ja jäsenmuuttujien oletusarvot. |
 
 ## Käsitteet, joita harjoiteltiin
 
